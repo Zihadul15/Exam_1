@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700;1,900&family=Yeseva+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Yeseva One', cursive;
+}
+
+/* --------menu start--------- */
+/* ------------------header start-------------------------- */
+.header_section{
+    background-image: url("img/hero.png");
+    background-position: bottom  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+	color:#fff;
+}
+.bg-dark{
+	background: url("img/manu.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color:#fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#fff;
+}
+.social_icon{
+    margin-left: 7px;
+}
+.social_icon i{
+    margin-right: 7px;
+    color: #dab33e;
+    font-size: 18px;
+}
+.header_bottom{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.bottom_cont h1{
+    font-size: 90px;
+    color: #fff;
+    text-align: center;
+}
+.bottom_img{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 30px;
+}
+.black_btn{
+    text-decoration: none;
+    background: #171516;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 0.8;
+    margin-right: 20px;
+    border: 1px solid #000;
+    font-family: 'Lato', sans-serif;
+}
+.white_btn{
+    text-decoration: none;
+    background: #e6d27f;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-right: 20px;
+    border: 1px solid #fff;
+    font-family: 'Lato', sans-serif;
+}
+.black_btn:hover{
+    color: #fff;
+}
+.white_btn:hover{
+    color: #fff;
+}
+/* ------------------header end-------------------------- */
+
+/* ------------------about start-------------------------- */
+.about_section{
+    background-image: url("img/back2.png");
+    background-size: cover;
+    padding: 80px 0px;
+}
+.about_left_cont h3{
+    color: #cc9900;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.about_left_cont p{
+    color: #4c4c4c;
+    font-size: 16px;
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+}
+.about_img_bottom img{
+    margin-top: 20px;
+}
+.about_right_cont img {
+	margin-top: -30px;
+}
+/* ------------------about end-------------------------- */
+
+/* ------------------igredients start-------------------------- */
+.igredients_section{
+    background: url("img/igredients_back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0px;
+}
+.igredients_cont{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 60px 60px;
+}
+.igredients_cont h3{
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.igredients_cont p{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.igredient_img{
+    padding-top: 40px;
+}
+.igredient_img img{
+    margin-right: 20px;
+   border-radius: 50%;
+   border: 4px solid #403b38;
+}
+/* ------------------igredients end-------------------------- */
+
+/* ------------------menu start-------------------------- */
+.menu_section{
+    background-image: url("img/back1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
+.menu_head h3{
+    color: #cc9900;
+    font-size: 36px;
+}
+.menu_body{
+    padding-top: 30px;
+   
+}
+.menu_body h4{
+    font-size: 21px;
+    color: #cc9900;
+    border-bottom: 1px solid #cc9900;
+    padding-bottom: 4px;
+}
+.menu_body h4 span{
+    float: right;
+}
+.menu_body p{
+    color: #4c4c4c;
+    font-size: 16px;
+    padding-bottom: -7px;
+    font-family: 'Lato', sans-serif;
+}
+.menu_special_left{
+    margin-top: 40px;
+}
+.menu_special_right {
+	margin-top: -70px;
+}
+.Special{
+    border: 1px solid #cc9900;
+    padding:0px 10px;
+    position: relative;
+    margin-top: 30px;
+}
+.Special::before {
+	content: "Special";
+	position: absolute;
+	top: -25px;
+	right: -1px;
+	background: #d6ba6d;
+	color: #fff;
+	padding: 0px 6px;
+}
+/* ------------------menu end-------------------------- */
+
+/* ------------------reviews start-------------------------- */
+.reviews_section{
+    background-image: url("img/reviews.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0px;
+}
+.reviews_cont{
+    background: #040404;
+    padding: 30px 40px;
+    opacity: .8;
+}
+.reviews_cont h3{
+    color: #fff;
+    font-size: 36px;
+}
+.reviews_cont p{
+    color: #dde0df;
+    word-spacing: 2px;
+    font-size: 19px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+.reviews_cont h6{
+    color: #dde0df;
+    font-size: 18px;
+}
+/* ------------------reviews end-------------------------- */
+
+/* ------------------contact start-------------------------- */
+.contact_sction{
+    background-image:url("img/back.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
+.contact_head h3{
+    font-size: 36px;
+    color: #cc9900;
+}
+.contact_head img{
+    margin-bottom: 30px;
+}
+.contact_head p{
+    color: #4c4c4c;
+    font-size: 16px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.contact_form{
+    width: 400px;
+    margin: auto;
+}
+.contact_form input,select{
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    height: 40px;
+    border: 1px solid #c8c6c6;
+    padding: 5px;
+}
+.contact_form input:hover{
+    border: 1px solid #cc9900;
+}
+.contact_form select:hover{
+    border: 1px solid #cc9900;
+}
+.contact_form label{
+    font-size: 14px;
+    color:#cc9900;
+    font-weight: bold;
+}
+input[type="submit"] {
+	background-color: #cc9900;
+	color: #fff;
+	width: 100%;
+    border: 1px solid #cc9900;
+}
+/* ------------------contact end-------------------------- */
+.footer_section{
+    background: #191919;
+    padding: 40px 0px;
+}
+.footer_cont h3{
+    font-size: 21;
+    color: #fff;
+}
+.footer_cont img{
+    margin-bottom: 20px;
+}
+.footer_cont p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+.opening_para{
+    margin-bottom: 5px;
+}
+.footer_social i{
+    color: #fff;
+    margin-right: 7px;
+    margin-top: 20px;
+}
+.footer_social a{
+    text-decoration: none;
+}
